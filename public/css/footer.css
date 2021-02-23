@@ -1,0 +1,43 @@
+.title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.col-contact>p, .col-nav>p>a {
+    text-align: left;
+}
+
+.footer {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    background: url('../img/home/h1-bg-home.png');
+}
+
+.col-nav>p>a, .contact-txt {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+.col-nav>p>a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.copyright>p>a:hover {
+    color: white;
+}
+
+.copyright>p>a, .copyright>p {
+    color: white;
+}
+
+.copyright>p {
+    margin-top: 3%;
+}
