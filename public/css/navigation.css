@@ -4,14 +4,6 @@
   overflow-y: hidden;
 }
 
-.anim-in {
-  transition: ease-in 5s;
-}
-
-.anim-out {
-  transition: ease-out 5s;
-}
-
 /* --- Navbar --- */
 
 nav {
@@ -26,7 +18,7 @@ label.logo {
 
 nav ul {
   float: right;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 nav ul li {
@@ -44,6 +36,16 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+  color: var(--main-yellow-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.active {
+  background: var(--main-yellow-color);
+}
+
+.active:hover {
   color: black;
 }
 
@@ -60,8 +62,6 @@ nav ul li a:hover {
 #check {
   display: none;
 }
-
-
 
 @media (min-width: 1362px) {
   label.logo {

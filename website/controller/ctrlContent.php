@@ -5,9 +5,6 @@ switch ($loc) {
     case '':
         include(PATH_CONTENT . "/home.php");
         break;
-        // case 'home':
-        //     include(PATH_CONTENT . "/home.php");
-        //     break;
     case 'studies':
         include(PATH_CONTENT . "/studies.php");
         break;

@@ -1,45 +1,37 @@
 <div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col d-flex align-items-center flex-column">
-                <div class="col-nav">
-                    <p class="title">Navigation</p>
-                    <p>
-                        <a class="<?= ($loc == '') ? 'active' : ''; ?>" href="<?= BASE_URL ?>">Accueil</a>
-                    </p>
-                    <p>
-                        <a class="<?= ($loc == 'studies') ? 'active' : ''; ?>" href="<?= BASE_URL ?>studies">Études</a>
-                    </p>
-                    <p>
-                        <a class="<?= ($loc == 'productions') ? 'active' : ''; ?>" href="<?= BASE_URL ?>productions">Fabrications</a>
-                    </p>
-                    <p>
-                        <a class="<?= ($loc == 'trials') ? 'active' : ''; ?>" href="<?= BASE_URL ?>trials">Essais</a>
-                    </p>
-                    <p>
-                        <a class="<?= ($loc == 'skill') ? 'active' : ''; ?>" href="<?= BASE_URL ?>skill">Savoir-Faire</a>
-                    </p>
-                    <p>
-                        <a class="<?= ($loc == 'products') ? 'active' : ''; ?>" href="<?= BASE_URL ?>products">Produits</a>
-                    </p>
-                    <p>
-                        <a class="<?= ($loc == 'realisations') ? 'active' : ''; ?>" href="<?= BASE_URL ?>realisations">Réalisations</a>
-                    </p>
-                    <p>
-                        <a class="<?= ($loc == 'contact') ? 'active' : ''; ?>" href="<?= BASE_URL ?>contact">Contact</a>
-                    </p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-center flex-column">
-                <div class="col-contact">
-                    <p class="title">Contact</p>
-                    <p class="contact-txt">Erneo SAS</p>
-                    <p class="contact-txt">505 rue Louis Lépine</p>
-                    <p class="contact-txt">34000 MONTPELLIER</p>
-                    <p class="contact-txt">contact@erneo.fr</p>
-                    <p class="contact-txt">04 00 00 00 00</p>
-                </div>
-            </div>
+    <div class="row footer-row">
+        <div class="col d-flex align-items-center flex-column col-nav h-100">
+            <p class="footer-title">Navigation</p>
+            <p class="nav-link">
+                <a class="<?= ($loc == '') ? 'active' : ''; ?>" href="<?= BASE_URL ?>">Accueil</a>
+            </p>
+            <p class="nav-link">
+                <a class="<?= ($loc == 'studies') ? 'active' : ''; ?>" href="<?= BASE_URL ?>studies">Études</a>
+            </p>
+            <p class="nav-link">
+                <a class="<?= ($loc == 'productions') ? 'active' : ''; ?>" href="<?= BASE_URL ?>productions">Fabrications</a>
+            </p>
+            <p class="nav-link">
+                <a class="<?= ($loc == 'trials') ? 'active' : ''; ?>" href="<?= BASE_URL ?>trials">Essais</a>
+            </p>
+            <p class="nav-link">
+                <a class="<?= ($loc == 'skill') ? 'active' : ''; ?>" href="<?= BASE_URL ?>skill">Savoir-Faire</a>
+            </p>
+            <p class="nav-link">
+                <a class="<?= ($loc == 'products') ? 'active' : ''; ?>" href="<?= BASE_URL ?>products">Produits</a>
+            </p>
+            <p class="nav-link">
+                <a class="<?= ($loc == 'realisations') ? 'active' : ''; ?>" href="<?= BASE_URL ?>realisations">Réalisations</a>
+            </p>
+            <p class="nav-link">
+                <a class="<?= ($loc == 'contact') ? 'active' : ''; ?>" href="<?= BASE_URL ?>contact">Contact</a>
+            </p>
+        </div>
+        <div class="col d-flex align-items-center flex-column col-contact">
+            <p class="footer-title">Erneo SAS</p>
+            <p class="contact-txt">505 rue Louis Lépine</p>
+            <p class="contact-txt">34000 MONTPELLIER</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2003.641688133642!2d3.909929752009337!3d43.61354041333159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6a583fe267931%3A0xe80cfed499eb26e3!2sERNEO!5e0!3m2!1sfr!2sfr!4v1614269508691!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
     <span class="copyright">

@@ -1,19 +1,11 @@
-/* .margin-top {
-    margin-top: 150px;
-} */
-
 .h1-div {
-    background: url('../img/home/h1-bg-home.png');
+    background: url('../img/yellow.png');
     padding: 2%;
 }
 
-h1 {
-    font-size: 30px;
+.bold {
     font-weight: bold;
-}
-
-h3 {
-    font-size: 25px;
+    font-style: normal;
 }
 
 .img-ctn {
@@ -35,17 +27,21 @@ h3 {
     margin-top: 50px;
     margin-bottom: 50px;
     z-index: -1;
+    background-color: rgba(225, 225, 225, 0.5);
 }
 
-.business-areas>div>div>img {
+.business-areas>div>div>div>div>img {
     margin-top: 50px;
     width: 100px;
     height: 100px;
     margin-bottom: 2rem;
+    
 }
 
-.customers-title {
-    text-transform: uppercase;
+.business-items {
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .carousel-item>img {
@@ -56,42 +52,6 @@ h3 {
 .customers-logos {
     margin-top: 200px;
     margin-bottom: 200px;
-}
-
-/* ----- Animation ----- */
-
-.fade-in {
-    animation: fadeIn 5s;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.bounce-in-right {
-    animation: bounceInRight 1s linear;
-}
-
-@keyframes bounceInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(2000px);
-    }
-    60% {
-        opacity: 1;
-        transform: translateX(-30px);
-    }
-    80% {
-        transform: translateX(10px);
-    }
-    100% {
-        transform: translateX(0);
-    }
 }
 
 /* ----- Slider ----- */
@@ -222,4 +182,8 @@ h3 {
 
 .down-sizing-25 {
     transform: scale(.75);
+}
+
+@media (max-width: 577px) {
+    
 }

@@ -12,5 +12,10 @@
 <link rel="stylesheet" href="<?= PATH_CSS ?>/style.css">
 <link rel="stylesheet" href="<?= PATH_CSS ?>/navigation.css">
 <link rel="stylesheet" href="<?= PATH_CSS ?>/home.css">
+<link rel="stylesheet" href="<?= PATH_CSS ?>/studies.css">
 <link rel="stylesheet" href="<?= PATH_CSS ?>/footer.css">
+<link rel="stylesheet" href="<?= PATH_CSS ?>/animations.css">
+<link rel="stylesheet" href="<?= PATH_CSS ?>/contact.css">
+<link rel="stylesheet" href="<?= PATH_CSS ?>/productions.css">
+<link rel="stylesheet" href="<?= PATH_CSS ?>/skill.css">
 <title>Erneo</title>

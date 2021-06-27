@@ -25,6 +25,7 @@
 
     <script src="<?= PATH_JS ?>/home.js"></script>
     <script src="<?= PATH_JS ?>/nav.js"></script>
+    <script src="<?= PATH_JS ?>/contact.js"></script>
 </body>
 
 </html>

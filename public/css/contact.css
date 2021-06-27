@@ -1,0 +1,119 @@
+.contact-bg {
+    background: var(--main-yellow-color);
+}
+
+.contact-form-ctn {
+    background: lightgray;
+    border-radius: 15px;
+}
+
+/*
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-name, .input-email, .input-subject, .txtArea-message {
+    border: solid 1px #cbcbcb;
+    border-radius: 6px;
+    padding: 6px 12px;
+    outline: none;
+}
+
+.txtArea-message {
+    height: 100px;
+} 
+
+.lbl-contact {
+    font-size: 18px;
+}
+
+.contact-submit {
+    height: 42px;
+    width: 60%;
+    margin: 24px auto;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    background-color: var(--main-yellow-color);
+    cursor: pointer;
+}
+
+.contact-star {
+    color: red;
+}*/
+
+.form-group {
+    margin-bottom: 1.5em;
+    transition: all .3s;
+}
+
+.form-label {
+    font-size: .75em;
+    color: var(--font-color);
+    display: block;
+    opacity: 0;
+    transition: all .3s;
+    transform: translateX(-50px);
+}
+
+.form-control {
+    box-shadow: none;
+    border-radius: 8px;
+    border-color: #ccc;
+    border-style: none none solid none;
+    width: 100%;
+    font-size: 1.25em;
+    transition: all .6s;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--font-hover-color);
+    outline: none;
+}
+
+.form-group:focus-within {
+    transform: scale(1.1, 1.1);
+}
+
+.form-control:invalid:focus {
+    border-color: red;
+}
+
+.form-control:valid:focus {
+    border-color: green;
+}
+
+.btn {
+    font-size: 1em;
+    padding: 10 50px;
+    text-transform: uppercase;
+    height: 42px;
+    width: 60%;
+    margin: 24px auto;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    background-color: var(--main-yellow-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-color: var(--font-hover-color);
+    color: var(--font-hover-color);
+}
+
+textarea {
+    resize: none;
+}
+
+.focused>.form-label {
+    opacity: 1;
+    transform: translateX(0px);
+}

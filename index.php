@@ -7,9 +7,6 @@ switch ($loc) {
     case '':
         include(PATH_CTRL . "/ctrlHome.php");
         break;
-        // case 'home':
-        //     include(PATH_CTRL . "/ctrlHome.php");
-        //     break;
     case 'studies':
         include(PATH_CTRL . '/ctrlStudies.php');
         break;
